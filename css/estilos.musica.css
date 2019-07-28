@@ -1,0 +1,31 @@
+body{
+  background-color: #D7DF01;
+}
+header{
+  flex-flow: row wrap;
+  display: flex;
+  border: 0px;
+}
+.jumbotron{
+  background-color: white;
+}
+.Sociales{
+  text-align: center;
+  flex-flow: row wrap;
+}
+#Navegacion{
+  background-color: #3498DB;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+a:visited, a:link  {
+	color: black;
+}
+@media(max-width:770px)  {
+  .row-Buscador{
+    display: none;
+  }
+
+}
